@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--Навигация-->
@@ -12,24 +13,27 @@
         <a href="/"
           ><img src="./image/logo.svg" alt="logo" width="153" height="31"
         /></a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a href="" class="link">Студия</a></li>
+          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="auth-nav">
         <li>
           <img
             src="./image/envelope-logo.svg"
             alt="Logo"
             width="16"
             height="10"
-          /><a href="mailto:info@devstudio.com">info@devstudio.com </a>
+          /><a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com
+          </a>
         </li>
         <li>
           <img src="./image/Vector.svg" alt="tel" width="10" height="15" /><a
             href="tel:+380961111111"
+            class="link"
             >+38 096 111 11 11
           </a>
         </li>
@@ -37,18 +41,18 @@
     </header>
     <!--Герои-->
     <main>
-      <section>
+      <section class="hero">
         <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a href="" class="button">Заказать услугу</a>
       </section>
       <!--Преимущества-->
-      <section>
+      <section class="section">
         <h2>Преимущества</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./image/antena.svg" alt="Antena" width="70" height="70" />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="section-title">Внимание к деталям</h3>
+            <p class="section-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -56,7 +60,7 @@
           <li>
             <img src="./image/watch.svg" alt="watch" width="70" height="70" />
             <h3>Пунктуальность</h3>
-            <p>
+            <p class="section-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -64,7 +68,7 @@
           <li>
             <img src="./image/comp.svg" alt="" width="70" height="70" />
             <h3>Планирование</h3>
-            <p>
+            <p class="section-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -72,7 +76,7 @@
           <li>
             <img src="./image/man.svg" alt="" width="70" height="70" />
             <h3>Современные технологии</h3>
-            <p>
+            <p class="section-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -80,27 +84,27 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
+      <section class="section">
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="/image/img1.png" alt="notepad" width="380" height="294" />
-            <p>Декстопные технологии</p>
+            <p class="experience-text">Декстопные технологии</p>
           </li>
           <li>
             <img src="./image/img2.png" alt="mobile" width="380" height="294" />
-            <p>Мобильные приложения</p>
+            <p class="experience-text">Мобильные приложения</p>
           </li>
           <li>
             <img src="./image/img3.png" alt="design" width="380" height="294" />
-            <p>Дизайнерские решения</p>
+            <p class="experience-text">Дизайнерские решения</p>
           </li>
         </ul>
       </section>
       <!--Наша команда-->
-      <section>
+      <section class="section">
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./image/john-smith.png"
@@ -108,9 +112,9 @@
               width="278"
               height="260"
             />
-            <h3>John Smith</h3>
-            <p>Product Designer</p>
-            <ul>
+            <h3 class="section">John Smith</h3>
+            <p class="section-text">Product Designer</p>
+            <ul class="list">
               <li>
                 <a href="#" aria-label="Facebook">Facebook</a>
               </li>
@@ -132,9 +136,9 @@
               width="278"
               height="260"
             />
-            <h3>Marta Stewart</h3>
-            <p>Frontend Developer</p>
-            <ul>
+            <h3 class="section">Marta Stewart</h3>
+            <p class="section-text">Frontend Developer</p>
+            <ul class="list">
               <li>
                 <a href="#" aria-label="Facebook">Facebook</a>
               </li>
@@ -156,9 +160,9 @@
               width="278"
               height="260"
             />
-            <h3>Robert Jakis</h3>
-            <p>Marketing</p>
-            <ul>
+            <h3 class="section">Robert Jakis</h3>
+            <p class="section-text">Marketing</p>
+            <ul class="list">
               <li>
                 <a href="#" aria-label="Facebook">Facebook</a>
               </li>
@@ -180,9 +184,9 @@
               width="278"
               height="260"
             />
-            <h3>Martin Doe</h3>
-            <p>UI Designer</p>
-            <ul>
+            <h3 class="section">Martin Doe</h3>
+            <p class="section-text">UI Designer</p>
+            <ul class="list">
               <li>
                 <a href="#" aria-label="Facebook">Facebook</a>
               </li>
@@ -200,9 +204,9 @@
         </ul>
       </section>
       <!--Постоянные клиенты-->
-      <section>
+      <section class="section">
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="#"
               ><img
@@ -272,7 +276,7 @@
       </div>
       <div>
         <b>присоединяйтесь</b>
-        <ul>
+        <ul class="list">
           <li>
             <a href="#" aria-label="Facebook">Facebook</a>
           </li>

@@ -1,0 +1,50 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent: #2196f3;
+  --white: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* цвет основготекста #212121 */
+/* вторичный цекст цвета #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+
+/* site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+
+.auth-nav .link {
+  color: var(--secondary-text-color);
+}
+.auth-nav .link:hover {
+  color: var(--accent);
+}
+
+/* main */
+
+.section {
+  color: var(--primary-text-color);
+}
+.section-text {
+  color: var(--secondary-text-color);
+}
+
+.button {
+  color: var(--white);
+  background-color: var(--accent);
+}
+/* чем мі занимаемся */
+.experience-text {
+  color: var(--white);
+}
+/* наша команда */
