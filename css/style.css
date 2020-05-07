@@ -25,6 +25,10 @@
   color: var(--accent);
 }
 
+.site-nav .link.current {
+  color: var(--accent);
+}
+
 .auth-nav .link {
   color: var(--secondary-text-color);
 }
