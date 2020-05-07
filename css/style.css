@@ -3,6 +3,8 @@
   --secondary-text-color: #757575;
   --accent: #2196f3;
   --white: #ffffff;
+  --color-icon: #afb1b8;
+  --color-footer-icon: rgba(47, 48, 58, 0.8);
 }
 
 .list {
@@ -43,8 +45,30 @@
   color: var(--white);
   background-color: var(--accent);
 }
+
 /* чем мі занимаемся */
+
 .experience-text {
   color: var(--white);
 }
+
 /* наша команда */
+
+.button-icon {
+  color: var(--color-icon);
+  background-color: var(--white);
+}
+.button-icon:hover {
+  color: var(--white);
+  background-color: var(--accent);
+}
+
+/* footer */
+
+.footer-icon {
+  color: var(--white);
+  background-color: var(--color-footer-icon);
+}
+.footer-icon:hover {
+  background-color: var(--accent);
+}
