@@ -78,3 +78,14 @@
 }
 
 /* Портфолио */
+
+.button-pf {
+  color: var(--primary-text-color);
+  background-color: var(--white);
+}
+
+.button-pf:hover,
+.button-pf:focus {
+  color: var(--white);
+  background-color: var(--accent);
+}
