@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
   </head>
   <body>
     <!--Навигация-->
     <header>
       <nav>
         <a href="/"
-          ><img src="./image/logo.svg" alt="logo" width="153" height="31"
-        /></a>
+          ><p class="logo-text"><span class="logo">Web</span> Studio</p></a
+        >
         <ul class="site-nav list">
           <li><a href="" class="site-nav link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -42,11 +46,11 @@
     <!--Герои-->
     <main>
       <section class="hero">
-        <h1>эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero-text">эффективные решения для вашего бизнеса</h1>
         <a href="" class="button">Заказать услугу</a>
       </section>
       <!--Преимущества-->
-      <section class="section">
+      <section>
         <h2>Преимущества</h2>
         <ul class="list">
           <li>
@@ -59,7 +63,7 @@
           </li>
           <li>
             <img src="./image/watch.svg" alt="watch" width="70" height="70" />
-            <h3>Пунктуальность</h3>
+            <h3 class="section-title">Пунктуальность</h3>
             <p class="section-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -67,7 +71,7 @@
           </li>
           <li>
             <img src="./image/comp.svg" alt="" width="70" height="70" />
-            <h3>Планирование</h3>
+            <h3 class="section-title">Планирование</h3>
             <p class="section-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -75,7 +79,7 @@
           </li>
           <li>
             <img src="./image/man.svg" alt="" width="70" height="70" />
-            <h3>Современные технологии</h3>
+            <h3 class="section-title">Современные технологии</h3>
             <p class="section-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -84,8 +88,8 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section class="section">
-        <h2>Чем мы занимаемся</h2>
+      <section>
+        <h2 class="section">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -107,8 +111,8 @@
         </ul>
       </section>
       <!--Наша команда-->
-      <section class="section">
-        <h2>Наша команда</h2>
+      <section>
+        <h2 class="section">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -117,8 +121,8 @@
               width="278"
               height="260"
             />
-            <h3 class="section">John Smith</h3>
-            <p class="section-text">Product Designer</p>
+            <h3 class="command-title">John Smith</h3>
+            <p class="command-text">Product Designer</p>
             <ul class="list">
               <li>
                 <a href="#" class="button-icon" aria-label="Facebook"
@@ -147,7 +151,7 @@
               width="278"
               height="260"
             />
-            <h3 class="section">Marta Stewart</h3>
+            <h3>Marta Stewart</h3>
             <p class="section-text">Frontend Developer</p>
             <ul class="list">
               <li>
@@ -177,7 +181,7 @@
               width="278"
               height="260"
             />
-            <h3 class="section">Robert Jakis</h3>
+            <h3>Robert Jakis</h3>
             <p class="section-text">Marketing</p>
             <ul class="list">
               <li>
@@ -207,7 +211,7 @@
               width="278"
               height="260"
             />
-            <h3 class="section">Martin Doe</h3>
+            <h3>Martin Doe</h3>
             <p class="section-text">UI Designer</p>
             <ul class="list">
               <li>
@@ -233,8 +237,8 @@
         </ul>
       </section>
       <!--Постоянные клиенты-->
-      <section class="section">
-        <h2>Постоянные клиенты</h2>
+      <section>
+        <h2 class="section">Постоянные клиенты</h2>
         <ul class="list">
           <li>
             <a href="#"
@@ -296,15 +300,17 @@
     <!--Footer-->
     <footer>
       <div>
-        <a href="/"><img src="./image/logo.svg" alt="logo" /></a>
-        <address>
+        <a href="/">
+          <p class="logo-text"><span class="logo">Web</span> Studio</p>
+        </a>
+        <address class="adress">
           г. Киев, пр-т Леси Украинки, 26<br />
           <a href="mailto:info@example.com">info@example.com </a><br />
           <a href="tel:+380961111111">+38 096 111 11 11 </a>
         </address>
       </div>
       <div>
-        <b>присоединяйтесь</b>
+        <b class="footer-text">присоединяйтесь</b>
         <ul class="list">
           <li>
             <a href="#" class="footer-icon" aria-label="Facebook">Facebook</a>
@@ -323,7 +329,7 @@
         </ul>
       </div>
       <div>
-        <b>Подпишитесь на рассылку</b>
+        <b class="footer-text">Подпишитесь на рассылку</b>
         <p>
           <label>Email</label>
           <input type="email" name="email" required />
@@ -332,7 +338,7 @@
           Подписаться
         </button>
       </div>
-      <p>&#169; 2020 | Developed by GoIT Students</p>
+      <p class="low">&#169; 2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
